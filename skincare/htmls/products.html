@@ -1,0 +1,122 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <link rel="stylesheet" href="..\css\styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="..\images\logo\nafisa.png" alt="Skincare Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="client.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products-section">
+            <h1>Our Skincare Products</h1>
+            <p>Explore our carefully curated skincare essentials for radiant, healthy skin.</p>
+
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="../images/products/img-1.png" alt="Makeup Brushes">
+                    <h3>Makeup Brushes</h3>
+                    <p class="price">$15</p>
+                    <button onclick="addToCart('Makeup Brushes', 15)">Add to Cart</button>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="../images/products/img-2.png" alt="Moisturizer">
+                    <h3>Moisturizer</h3>
+                    <p class="price">$25</p>
+                    <button onclick="addToCart('Moisturizer', 25)">Add to Cart</button>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="../images/products/img-3.png" alt="Dream Toner">
+                    <h3>Dream Toner</h3>
+                    <p class="price">$30</p>
+                    <button onclick="addToCart('Dream Toner', 30)">Add to Cart</button>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="../images/products/img-4.png" alt="Vitamin C Serum">
+                    <h3>Vitamin C Serum</h3>
+                    <p class="price">$40</p>
+                    <button onclick="addToCart('Vitamin C Serum', 40)">Add to Cart</button>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="../images/products/img-5.png" alt="Retinol Serum">
+                    <h3>Retinol Serum</h3>
+                    <p class="price">$35</p>
+                    <button onclick="addToCart('Retinol Serum', 35)">Add to Cart</button>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="../images/products/img-7.png" alt="Face Cleanser">
+                    <h3>Face Cleanser</h3>
+                    <p class="price">$20</p>
+                    <button onclick="addToCart('Face Cleanser', 20)">Add to Cart</button>
+                </div>
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="..\images\products\img-10.png" alt="Face Cleanser">
+                    <h3>Face Cleanser</h3>
+                    <p class="price">$20</p>
+                    <button onclick="addToCart('Face Cleanser', 20)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="..\images\products\img-12.png" alt="Face Cleanser">
+                    <h3>Ordinary facewash</h3>
+                    <p class="price">$10</p>
+                    <button onclick="addToCart('Ordinary facewash', 23)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="..\images\products\img-9.png" alt="Face Cleanser">
+                    <h3>Ordinary Cleanser</h3>
+                    <p class="price">$20</p>
+                    <button onclick="addToCart('Ordinary Cleanser', 20)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="..\images\products\img-11.png" alt="Face Cleanser">
+                    <h3>Ordinary</h3>
+                    <p class="price">$27</p>
+                    <button onclick="addToCart('Ordinary', 20)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="..\images\products\img-13.png" alt="Face Cleanser">
+                    <h3>sats</h3>
+                    <p class="price">$40</p>
+                    <button onclick="addToCart('sats', 40)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="..\images\footer\logo-footer.png" alt="Footer Logo">
+        </div>
+        <p>© 2025 Skincare Haven. All rights reserved.</p>
+    </footer>
+    <script src="../Js/cart.js"></script>
+</body>
+</html>

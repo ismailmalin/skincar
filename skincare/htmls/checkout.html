@@ -1,0 +1,66 @@
+
+
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../images/logo/nafisa.png" alt="Skincare Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="checkout.html" class="active">Checkout</a></li>
+                <li><a href="client.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="checkout-section">
+            <h1>Checkout</h1>
+            <p>Review your cart and proceed to payment.</p>
+            <div class="cart-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-items">
+                        <tr>
+                            <td colspan="5" class="empty-cart">Your cart is empty.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="cart-total">
+                    <h3>Total: <span id="cart-total">$0.00</span></h3>
+                </div>
+                <button id="whatsapp-contact" class="btn" disabled>Contact on WhatsApp</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="..\images\footer\logo-footer.png" alt="Footer Logo">
+        </div>
+        <p>© 2025 Skincare Haven. All rights reserved.</p>
+    </footer>
+
+    <script src="../Js/cart.js"></script>
+</body>
+</html>
